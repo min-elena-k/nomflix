@@ -9,3 +9,5 @@ const api = axios.create({
 })
 
 api.get("tv/popular");
+
+export default api;
